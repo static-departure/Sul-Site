@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M-Pesa STK Push</title>
+</head>
+<body>
+    <h1>Enter Payment Details</h1>
+    <form action="/pay" method="POST">
+        <label for="phone_number">Phone Number (e.g. 254712345678):</label><br>
+        <input type="text" id="phone_number" name="phone_number" required><br><br>
+
+        <label for="amount">Amount (in KES):</label><br>
+        <input type="number" id="amount" name="amount" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
